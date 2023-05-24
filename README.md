@@ -7,6 +7,9 @@ This repository includes a basic python class for logging blood pressure and hea
 This code demonstrates how to use a basic pydantic model for validation, pandas for logging/data analysis and matplotlib for visualization.  Part of the idea behind this code is to use BP data as an exmaple scientific dataset in order to explore different ways to present raw data, beyond simply just including a CSV file as SI or in a github repository.  Providing routines to load and visualize raw data (in particular using pydantic models to clearly define metadata) within a github SI repository, would greatly improve usability of datasets. 
 
 
+[bp_log_notebook.ipynb](https://github.com/chrisiacovella/BPlogger/blob/main/bp_log_notebook.ipynb) demonstrates the basic usage and built in validation.  For SI material, we obviously wouldn't want necessarily the ability for users to add new data, but providing a basic class with the model and ability to load a CSV file and present summary tables/plots that match those in the text as well as additional clarifying figures (e.g., those in the SI text document) as is shown here, would be helpful.   Todo: add in plotly interactive plots. 
+
+
 
 Check out the source from the github repository:
 
