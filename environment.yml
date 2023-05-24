@@ -1,0 +1,9 @@
+name: bp
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - pydantic
